@@ -50,7 +50,7 @@ export class BrandColorService {
     } catch (e) {
       this.colors = {
         failure: true,
-        name: '(Failed to load colours: ' + e.toString() + ')',
+        name: '(Failed to load colors: ' + e.toString() + ')',
         groups: [],
         colors: []
       };

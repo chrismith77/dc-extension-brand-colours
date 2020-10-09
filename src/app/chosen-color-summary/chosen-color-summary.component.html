@@ -5,10 +5,10 @@
 </amp-color-preview>
 
 <div class="amp-chosen-color-summary__name" [style.animationName]="animation">
-  {{ color == null ? 'No Colour Selected' : color.name }}
+  {{ color == null ? 'No Color Selected' : color.name }}
 </div>
 
-<button mat-icon-button aria-label="Remove Colour"
+<button mat-icon-button aria-label="Remove Color"
   class = "amp-chosen-color-summary__delete"
   (click)="signalDelete()"
   [ngClass]="{'amp-chosen-color-summary__delete--hidden': color == null}">

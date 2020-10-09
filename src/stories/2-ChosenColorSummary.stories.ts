@@ -39,7 +39,7 @@ export const NoColourSelected = () => ({
 });
 
 NoColourSelected.story = {
-  name: 'No Colour Selected',
+  name: 'No Color Selected',
 };
 
 export const RandomColourSelected = () => ({
@@ -50,6 +50,6 @@ export const RandomColourSelected = () => ({
 });
 
 RandomColourSelected.story = {
-  name: 'Random Colour Selected',
+  name: 'Random Color Selected',
 };
 

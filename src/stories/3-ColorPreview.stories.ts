@@ -37,7 +37,7 @@ export const NoColour = () => ({
 });
 
 NoColour.story = {
-  name: 'No Colour',
+  name: 'No Color',
 };
 
 export const SolidColour = () => ({
@@ -48,7 +48,7 @@ export const SolidColour = () => ({
 });
 
 SolidColour.story = {
-  name: 'Solid Colour',
+  name: 'Solid Color',
 };
 
 export const SemitransparentColour = () => ({
@@ -59,7 +59,7 @@ export const SemitransparentColour = () => ({
 });
 
 SemitransparentColour.story = {
-  name: 'Semi-Transparent Colour',
+  name: 'Semi-Transparent Color',
 };
 
 export const RandomColour = () => ({
@@ -70,6 +70,6 @@ export const RandomColour = () => ({
 });
 
 RandomColour.story = {
-  name: 'Random Colour',
+  name: 'Random Color',
 };
 

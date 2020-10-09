@@ -35,9 +35,9 @@ export const NormalModeNoColour = () => ({
   component: ColorListComponent,
   props: {
     expanded: true,
-    selection: (color) => action(`Selected colour: ${color}`),
+    selection: (color) => action(`Selected color: ${color}`),
     colors: {
-      name: 'Normal Mode (no colour)',
+      name: 'Normal Mode (no color)',
       compact: false,
       colors: []
     }
@@ -45,16 +45,16 @@ export const NormalModeNoColour = () => ({
 });
 
 NormalModeNoColour.story = {
-  name: 'Normal Mode (no colour)',
+  name: 'Normal Mode (no color)',
 };
 
 export const NormalModeOneColour = () => ({
   component: ColorListComponent,
   props: {
     expanded: true,
-    selection: (color) => action(`Selected colour: ${color}`),
+    selection: (color) => action(`Selected color: ${color}`),
     colors: {
-      name: 'Normal Mode (1 colour)',
+      name: 'Normal Mode (1 color)',
       compact: false,
       colors: generateColours(1)
     }
@@ -62,14 +62,14 @@ export const NormalModeOneColour = () => ({
 });
 
 NormalModeOneColour.story = {
-  name: 'Normal Mode (1 colour)',
+  name: 'Normal Mode (1 color)',
 };
 
 export const NormalModeUnlimited = () => ({
   component: ColorListComponent,
   props: {
     expanded: true,
-    selection: (color) => action(`Selected colour: ${color}`),
+    selection: (color) => action(`Selected color: ${color}`),
     colors: {
       name: 'Normal Mode (no row limit)',
       compact: false,
@@ -86,7 +86,7 @@ export const NormalModeSquare = () => ({
   component: ColorListComponent,
   props: {
     expanded: true,
-    selection: (color) => action(`Selected colour: ${color}`),
+    selection: (color) => action(`Selected color: ${color}`),
     colors: {
       name: 'Normal Mode (square arrangement)',
       perRow: 6,
@@ -104,7 +104,7 @@ export const NormalModeRect = () => ({
   component: ColorListComponent,
   props: {
     expanded: true,
-    selection: (color) => action(`Selected colour: ${color}`),
+    selection: (color) => action(`Selected color: ${color}`),
     colors: {
       name: 'Normal Mode (rectangular arrangement)',
       perRow: 12,
@@ -122,7 +122,7 @@ export const CompactModeUnlimited = () => ({
   component: ColorListComponent,
   props: {
     expanded: true,
-    selection: (color) => action(`Selected colour: ${color}`),
+    selection: (color) => action(`Selected color: ${color}`),
     colors: {
       name: 'Compact Mode (no row limit)',
       compact: true,
@@ -139,7 +139,7 @@ export const CompactModeSquare = () => ({
   component: ColorListComponent,
   props: {
     expanded: true,
-    selection: (color) => action(`Selected colour: ${color}`),
+    selection: (color) => action(`Selected color: ${color}`),
     colors: {
       name: 'Compact Mode (square arrangement)',
       perRow: 6,
@@ -157,7 +157,7 @@ export const CompactModeRect = () => ({
   component: ColorListComponent,
   props: {
     expanded: true,
-    selection: (color) => action(`Selected colour: ${color}`),
+    selection: (color) => action(`Selected color: ${color}`),
     colors: {
       name: 'Compact Mode (rectangular arrangement)',
       perRow: 12,
